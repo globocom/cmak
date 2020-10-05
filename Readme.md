@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> An Docker container build to facilitate manage kafka without need to install CMAK hardcode and it's dependencies.
+> An Docker container build to make easier manage kafka without need to install CMAK hardcode and it's dependencies.
 
 > You will just need have  Zookeeper host or hosts runing and pass it with enviroment variable called ZK_HOSTS as the example bellow.
 
