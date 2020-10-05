@@ -13,7 +13,6 @@ RUN set -xe \
     && mkdir src \
     && curl -sSL https://github.com/yahoo/CMAK/archive/3.0.0.5.tar.gz | tar xz --strip 1 -C src \
     && cd src \
-    && ls -la \
     && ./sbt clean dist \
     && cd .. \
     && unzip /opt/cmak/src/target/universal/cmak-3.0.0.5.zip \
