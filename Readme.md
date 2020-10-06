@@ -1,4 +1,4 @@
-# CMAK Docker Container
+# CMAK Docker Container 🚢
 
 ## Introduction
 
