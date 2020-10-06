@@ -8,7 +8,7 @@
 
 ## Installation
 
-> Just need to have Docker instaled <br><br> <code>docker run -d -p 9000:9000 -e ZK_HOSTS=zookeeperHostsIP globocom/cmak </code>
+> Just need to have Docker installed <br><br> <code>docker run -d -p 9000:9000 -e ZK_HOSTS=zookeeperHostsIP globocom/cmak </code>
 <br><br>
 Building the container from  DockerFile 
 <br><br>
