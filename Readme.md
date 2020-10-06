@@ -1,4 +1,4 @@
-# CMAK Docker Container 🚢
+# CMAK Docker Container 🐳
 
 ## Introduction
 
@@ -14,4 +14,4 @@ Building the container from  DockerFile
 <br><br>
 <code>docker build -t imagetag . </code>
 
-## Or use Docker Compose
+## Or use Docker Compose 
