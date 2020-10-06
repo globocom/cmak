@@ -9,11 +9,10 @@
 ## Installation
 
 > Just need to have Docker installed <br><br> <code>docker run -d -p 9000:9000 -e ZK_HOSTS=zookeeperHostsIP globocom/cmak </code>
-<br><br>
-
 <br>
+<br/>
 Or
-<br>
+<br/>
 Building the container from  DockerFile 
 <br><br>
 <code>docker build -t imagetag . </code>
