@@ -15,5 +15,5 @@ Building the container from  DockerFile
 <br><br>
 <code>docker build -t imagetag . </code>
 
-## Or use Docker Compose 
+## Using Docker Compose 
 Coming soon
