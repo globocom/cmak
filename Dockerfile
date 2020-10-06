@@ -1,3 +1,5 @@
+# Copyright (c) 2020, Globo (https://github.com/globocom)
+# License: BSD-3-Clause
 FROM ubuntu:latest
 
 MAINTAINER GloboDevops
