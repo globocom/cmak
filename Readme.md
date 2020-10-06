@@ -12,7 +12,6 @@
 <br>
 <br/>
 Or
-<br/>
 Building the container from  DockerFile 
 <br><br>
 <code>docker build -t imagetag . </code>
