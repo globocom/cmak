@@ -1,0 +1,23 @@
+# Copyright (c) 2020, Globo (https://github.com/globocom)
+# License: BSD-3-Clause
+version: "1.0"
+
+services:
+
+  zookeeper:
+    image: zookeeper
+    ports:
+      - "2181:2181"
+    volumes:
+      - ./data/zookeeper/data:/data
+      - ./data/zookeeper/datalog:/datalog
+    restart: unless-stopped
+  cmak:
+    image: globocom/cmak
+    ports:
+      - "9000:9000"
+    environment:
+      - ZK_HOSTS=zookeeper:2181
+    depends_on:
+      - zookeeper
+    restart: unless-stopped
