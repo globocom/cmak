@@ -1,5 +1,6 @@
 # Copyright (c) 2020, Globo (https://github.com/globocom)
 # License: BSD-3-Clause
+# Testing Automate Build
 FROM ubuntu:latest
 
 MAINTAINER GloboDevops
