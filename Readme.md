@@ -18,5 +18,5 @@ Building the container from  DockerFile
 ## Using Docker Compose 
 
 > <code>git clone https://github.com/globocom/cmak </code> <br>
-> <code>docker compose up (or pass -d for background running)</code> <br>
+> <code>docker compose up (or pass -d for background running)</code> <br><br>
 > The benefit of use the docker compose file instead of use docker run is that you don't need to pass the zookeeper variable or use an external zookeeper, the docker compose provides both zookeeper local container and the cmak application.
