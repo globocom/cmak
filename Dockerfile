@@ -1,6 +1,6 @@
 # Copyright (c) 2020, Globo (https://github.com/globocom)
 # License: BSD-3-Clause
-# Testing Automate Build
+# Automate Build = Success
 FROM ubuntu:latest
 
 MAINTAINER GloboDevops
